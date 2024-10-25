@@ -1,0 +1,151 @@
+.my_account_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #f0faff; */
+  padding: 80px 0px;
+}
+
+.my_account_section  .wrapper {
+  position: relative;
+  width: 500px !important;
+  width: 100%;
+  border-radius: 12px;
+  padding: 20px
+    30px
+    120px;
+  background: #4070f4;
+  box-shadow: 0
+    5px
+    10px
+    rgba(
+      0,
+      0,
+      0,
+      0.1
+    );
+  overflow: hidden;
+  margin: 0 auto;
+}
+.my_account_section  .form.login {
+  position: absolute;
+  left: 50%;
+  bottom: -86%;
+  transform: translateX(
+    -50%
+  );
+  width: calc(
+    100% +
+      220px
+  );
+  padding: 20px
+    140px;
+  border-radius: 50%;
+  height: 100%;
+  background: #fff;
+  transition: all
+    0.6s
+    ease;
+}
+.my_account_section .wrapper.active
+  .form.login {
+  bottom: -15%;
+  border-radius: 35%;
+  box-shadow: 0 -5px
+    10px rgba(0, 0, 0, 0.1);
+}
+.my_account_section .form
+  header {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.my_account_section .form.login
+  header {
+  color: #333;
+  opacity: 0.6;
+}
+.my_account_section .wrapper.active
+  .form.login
+  header {
+  opacity: 1;
+}
+.wrapper.active
+  .signup
+  header {
+  opacity: 0.6;
+}
+.my_account_section .wrapper
+  form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+.my_account_section form
+  input {
+  height: 50px;
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  border-radius: 8px;
+  background: #fff;
+}
+.my_account_section .form.login
+  input {
+  border: 1px
+    solid
+    #aaa;
+}
+.my_account_section .form.login
+  input:focus {
+  box-shadow: 0
+    1px 0
+    #ddd;
+}
+.my_account_section form
+  .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.my_account_section .checkbox
+  input[type="checkbox"] {
+  height: 16px;
+  width: 16px;
+  accent-color: #fff;
+  cursor: pointer;
+}
+.my_account_section form
+  .checkbox
+  label {
+  cursor: pointer;
+  color: #fff;
+}
+.my_account_section form a {
+  color: #333;
+  text-decoration: none;
+}
+form
+  a:hover {
+  text-decoration: underline;
+}
+.my_account_section form
+  input[type="submit"] {
+  margin-top: 15px;
+  padding: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.my_account_section .form.login
+  input[type="submit"] {
+  background: #4070f4;
+  color: #fff;
+  border: none;
+}

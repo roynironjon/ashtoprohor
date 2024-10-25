@@ -1,0 +1,44 @@
+.faq_mein_section{
+    padding: 80px 0px;
+}
+.faq_mein_section .main-column .flex-col{
+    width: 900px;
+    margin: 0 auto;
+    background: gainsboro;
+    margin-bottom: 20px;
+    padding: 20px 25px;
+    box-shadow: 1px 1px 10px gainsboro;
+}
+.faq_mein_section .main-column .flex-col .question {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faq_mein_section .main-column .flex-col .question h3{
+    font-size: 22px;
+    color: black;
+    font-family: Arial;
+    margin-bottom: 10px;
+}
+.faq_mein_section .main-column .flex-col .question .icon{
+    font-size: 22px;
+    color: #333;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.faq_mein_section .main-column .flex-col .answer p{
+    font-family: Arial;
+    font-size: 16px;
+    color: #333;
+}
+.faq_mein_section .main-column .flex-col .answer{
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.faq_mein_section .main-column .flex-col .question .icon.active{
+    transform: rotate(-180deg);
+}
+/* faq question page design end */

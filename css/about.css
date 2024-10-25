@@ -1,0 +1,116 @@
+.about_main_section{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.about_main_section .main_about_column{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 30px;
+    margin-bottom: 60px;
+}
+.about_main_section .main_about_column .content_column h2{
+    color: #0042c7;
+    margin-bottom: 20px;
+}
+.about_main_section .main_about_column .image_column{
+    border: 1px solid #5e8d25;
+    border-radius: 10px;
+}
+.about_main_section .main_about_column .image_column img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about_main_section .main_about_column .content_column p{
+    color: #000;
+    font-size: 16px;
+    line-height: 26px;
+}
+.about_main_section .about_2_section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+    margin-bottom: 60px;
+}
+.about_main_section .about_2_section p{
+    color: #000;
+    font-size: 16px;
+    line-height: 26px;
+}
+.about_main_section .about_2_section .image_column{
+    border: 1px solid #5e8d25;
+    border-radius: 10px;
+}
+.about_main_section .about_2_section .image_column img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about_main_section .about_2_section .pra_1{
+    margin-bottom: 10px;
+}
+
+.blog_section{
+    padding-bottom: 80px;
+}
+.blog_section .header{
+    margin-bottom: 20px;
+}
+.blog_section h2{
+    color: #0042c7;
+}
+.blog_section .section-content {
+    padding: 20px;
+    background: #f8f8f8;
+}
+
+.blog_section .row {
+    display: flex;
+    justify-content: center; 
+}
+
+.blog_section .col {
+    width: 100%;
+}
+
+.blog_section .slider {
+    position: relative;
+    overflow: hidden; 
+}
+
+.blog_section .slider-element {
+    display: flex;
+    flex-direction: column;
+    background: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 10px; 
+    padding: 20px; 
+    transition: transform 0.5s ease; 
+}
+
+.blog_section .img-wrap {
+    overflow: hidden; 
+    border-radius: 10px; 
+}
+
+.blog_section .img-wrap img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.blog_section .text-wrap {
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.blog_section .text-wrap p {
+    font-size: 16px; 
+    color: #333; 
+    margin: 5px 0; 
+    line-height: 24px;
+}
+
+.blog_section .text-wrap h3 {
+    font-size: 14px; 
+    color: #777; 
+}
